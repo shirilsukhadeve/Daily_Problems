@@ -13,6 +13,6 @@ def decode(message):
         if two >=10 and two <=26:
           dp[n] += dp[n-2]
 
-    print dp[len(message)]
+    print (dp[len(message)])
 
 decode('226')
